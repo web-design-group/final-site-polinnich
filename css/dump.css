@@ -16,7 +16,9 @@ div{
 .green-text{
     color:#2E8F14;
     text-decoration: none;
+    font-weight: 600;
 }
+
 
 .main-div{
     background-color: #C4D4A6;
@@ -112,6 +114,7 @@ div{
     font-size: 30px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 
