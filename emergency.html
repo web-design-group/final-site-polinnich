@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Экстренная помощь</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/dump.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src='js/jquery.nicescroll.js'></script>
+    <script src='js/jquery.nicescroll.iframehelper.js'></script>
+    <div class="main-div" id="main" >
+        <div class="header-flex">
+            <div class="flex-left">
+                <a href="index.html"> <img src="img/LOGO_1.svg" alt="Logo"></a>
+            </div>
+            <div class="flex-right">
+                <a class="header-a">Экстренная помощь</a>
+                <a class="header-a">Услуги</a>
+            </div>
+        </div>
+
+        <div class="emergency-main-div">
+            <div class="emerg-main-text-1" style="margin-top: 200px;">
+                <p>
+                Если взлом случился, <br>
+                <a class="green-text">Нельзя медлить</a><br>
+                </p>
+                
+            </div>
+            <div class="lower-main-text" style="margin-bottom: 56px;">
+                <p>
+                Рассказываем, какие шаги нужно<br>
+                предпринять прямо сейчас.
+                </p>
+            </div>
+
+            <div class="emergency-grid-container" style="column-gap: 1%; margin-bottom: 120px;">
+                <div class="emerg-grid-item-1">
+                    <img src="img/emerg1.svg" alt="Emergency point 1">
+                </div>
+                <div class="emerg-grid-item-2">
+                    <img src="img/emerg2.svg" alt="Emergency point 2">
+                </div>
+                <div class="emerg-grid-item-3">
+                    <img src="img/emerg3.svg" alt="Emergency point 3">
+                </div>
+            </div>
+            <div class="emerg-main-text-1">
+                <p>
+                Для срочной блокировки <br>
+                аккаунта
+                </p>
+            </div>
+            <div class="lower-main-text" style="margin-bottom: 56px;">
+                <p>
+                Мы помогаем нашим клиентам: пишем и звоним<br>
+                в сервисы за вас, добиваясь блокировки
+                </p>
+            </div>
+
+            <form action="accepted.html">
+                <div class="form-group" >
+                    <div class="form-check-div-label-1"><label for="exampleInputEmail1">Ваш email</label></div>
+                    <div class="form-check-div-input-1"><input type="email" class="feed-input form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@email.com"></div>
+                    <small id="emailHelp" class="form-text text-muted"></small>
+                    <div class="form-check-div-label-2"><label for="exampleInputPassword1">Ссылка на ваш аккаунт</label></div>
+                    <div class="form-check-div-input-2"><input type="password" class="feed-input form-control" id="exampleInputPassword1" placeholder="examplelink.com"></div>
+                </div>
+            <div class="emerg-text-1-button" style="margin-bottom: 120px;">
+                <button type="submit" class="block-btn" >Заблокировать аккаунт</button>
+            </div>
+            </form>
+            
+        </div>
+    </div>
+    <div class="footer">
+        <div class="flex-left">
+            <img src="img/LOGO_1.svg" alt="Logo" class="footer-logo">
+        </div>
+        <div class="footer-info">
+            <a class="email">armadillo@support.com</a><br>
+            <br>
+            <a class="footer-phone">8 (800) 555 35 35</a><br>
+            <br>
+            <br>
+            <br>
+            Политика конфиденциальности<br>
+            <br>
+            Согласие на обработку данных<br>
+        </div>
+    </div>
+<script>
+$(document).ready(function() {
+    $("#main").niceScroll({
+        cursorcolor:"#1f4116",
+        cursorwidth:"10px"
+    });
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
