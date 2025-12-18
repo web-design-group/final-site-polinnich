@@ -239,8 +239,6 @@ div{
     line-height: 10px;
     display: grid;
     align-items: center;
-    padding-top: 4%;
-    padding-bottom: 4%;
 }
 
 .item-3{
@@ -249,8 +247,6 @@ div{
     line-height: 10px;
     display: grid;
     align-items: center;
-    padding-top: 4%;
-    padding-bottom: 4%;
 }
 
 .item-4{
@@ -270,8 +266,6 @@ div{
     line-height: 10px;
     display: grid;
     align-items: center;
-    padding-top: 4%;
-    padding-bottom: 4%;
 }
 
 .emerg-grid-item-1{
